@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restorants",
+  "info": {
+    "singularName": "restorant",
+    "pluralName": "restorants",
+    "displayName": "Restorant"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Deskripsi": {
+      "type": "richtext"
+    }
+  }
+}
